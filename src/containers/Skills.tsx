@@ -73,7 +73,7 @@ export const Skills = () => {
     },
   ]
   return (
-    <div id='about' className='min-h-screen w-full '>
+    <div id='skills' className='min-h-screen w-full '>
          <div className="flex px-[2rem] w-full flex-col md:flex-row md:px-[4rem] justify-between items-start z-30 py-[1rem] md:pt-[4rem] ">
           <div className="flex flex-col  md:w-[30rem]">
           <div className="flex flex-col gap-3 pt-[4rem]" data-aos="fade-down">

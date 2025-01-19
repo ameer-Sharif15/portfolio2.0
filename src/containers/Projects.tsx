@@ -17,7 +17,7 @@ const Projects = () => {
     }
     // project_list
   return (
-    <div className='bg-primary px-[1rem] md:px-[4rem] py-[3rem] md:py-[4rem] flex flex-col gap-5 md:flex-row overflow-hidden'>
+    <div id='projects' className='bg-primary px-[1rem] md:px-[4rem] py-[3rem] md:py-[4rem] flex flex-col gap-5 md:flex-row overflow-hidden'>
     <div className="app__gallery-content" data-aos="fade-right">
      {/* <SubHeading title="Instagram" /> */}
      <div className="flex flex-col gap-3 " >
@@ -28,7 +28,7 @@ const Projects = () => {
      <p className="w-[22rem] md:w-auto" style={{ color: '#AAA', marginTop: '1rem'}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repelllllat dolorem pariatur eaque culpa assumenda quidem dolore ducimus provident eum? MU</p>
        {/* <button type='button' className="custom__button">View More</button> */}
      </div>
-
+yn
      <div className="relative " data-aos="fade-left">
        <div className="flex gap-[1rem] overflow-scroll " ref={scrollRef}>
          {project_list.map((image: {img: string, to: string}, index) => (

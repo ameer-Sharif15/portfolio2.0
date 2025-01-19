@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import Projects from "./containers/Projects";
 import { Skills } from "./containers/Skills";
 import Awards from "./containers/Awards";
+import Contact from "./containers/Contact";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Projects />
       <About />
       <Awards />
+      <Contact />
     </div>
   )
 }

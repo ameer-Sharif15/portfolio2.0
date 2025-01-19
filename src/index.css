@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-#about {
+#about, #skills, #contact {
     background-image: url("./assets/bg1.png"); /* Replace with your image URL */
     background-size: cover; /* or contain, depending on your needs */
     background-repeat: no-repeat; /* Prevents the image from tiling */
