@@ -68,7 +68,7 @@ const Hero = () => {
             </div>
             <div className="flex  ">
                 <div className="absolute fade-in_two  bottom-0 right-1">
-                <img src={pic2} alt="picture"  className="w-[12rem] md:w-[30rem]"/>
+                <img src={pic2} alt="picture"  className="w-[15rem] sm:w-[15rem] md:w-[30rem]"/>
                 </div>
             </div>
         </div>

@@ -18,9 +18,9 @@ const Projects = () => {
     // project_list
   return (
     <div id='projects' className='bg-primary px-[1rem] md:px-[4rem] py-[3rem] md:py-[4rem] flex flex-col gap-5 md:flex-row overflow-hidden'>
-    <div className="app__gallery-content" data-aos="fade-right">
+    <div className="app__gallery-content md:min-w-[500px] overflow-hidden" data-aos="fade-right">
      {/* <SubHeading title="Instagram" /> */}
-     <div className="flex flex-col gap-3 " >
+     <div className="flex flex-col gap-3  " >
                 <p className="md:text-4xl text-2xl font-bold text-white">Explore</p>
                 <FaLocationArrow className="swirl-in-fwd text-white "   />
             </div>

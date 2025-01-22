@@ -3,13 +3,13 @@ import {  hafeez} from "../assets"
 
 const About = () => {
   return (
-    <div id='about' className='min-h-screen flex flex-col md:flex-row items-center gap-[10rem] py-[2rem] pl-[0.4rem] pr-[0.3rem]  md:pl-[5rem] md:pr-[3rem]'>
+    <div id='about' className='min-h-screen overflow-hidden flex flex-col md:flex-row items-center gap-[10rem] py-[2rem] pl-[0.4rem] pr-[0.3rem]  md:pl-[5rem] md:pr-[3rem]'>
       <div className="relative pr-4 pt-4" data-aos="flip-down">
-        <div className="bg-gold rounded-sm top-0 h-[1rem] w-[20rem] absolute right-0"></div>
-        <div className="bg-gold rounded-sm h-[1rem] w-[20rem] absolute  bottom-[-0.9rem] left-0"></div>
-        <div className="bg-gold rounded-sm h-[23rem] top-[13.5rem] w-[1rem] absolute left-0"/>
-        <div className="bg-gold rounded-sm h-[23rem] top-[0.5rem] w-[1rem] absolute right-0"/>
-        <img src={hafeez} alt="" className="md:w-[28rem] w-[21rem] h-[35rem] object-fill ml-4" />
+        <div className="bg-gold rounded-sm top-0 h-[1rem] w-[15rem] md:w-[20rem] absolute right-0"></div>
+        <div className="bg-gold rounded-sm h-[1rem] w-[15rem] md:w-[20rem] absolute  bottom-[-0.9rem] left-0"></div>
+        <div className="bg-gold rounded-sm h-[22.5rem] md:h-[23rem] top-[9rem] md:top-[8.5rem] w-[1rem] absolute left-0"/>
+        <div className="bg-gold rounded-sm h-[23rem] top-[0.5rem] md:top-[-0.01rem] w-[1rem] absolute right-0 md:-right-3"/>
+        <img src={hafeez} alt="" className="md:w-[28rem] w-[18rem] h-[30rem] object-fill ml-4" />
       </div>
       <div className="flex flex-col px-[1rem] md:px-0">
          <div className="flex flex-col gap-3 " data-aos="flip-left">

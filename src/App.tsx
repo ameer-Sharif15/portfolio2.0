@@ -13,7 +13,7 @@ import Contact from "./containers/Contact";
 const App = () => {
   useEffect(() => {
     AOS.init({
-      disable: "phone",
+      // disable: "phone",
       mirror: true,
       duration: 700,
       easing: "ease-out-cubic",
