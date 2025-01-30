@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 // import { CgMenuRight } from "react-icons/cg";
 // import { RiCloseLargeFill } from "react-icons/ri";4
-import { LuPanelLeftClose } from "react-icons/lu";
+// import { LuPanelLeftClose } from "react-icons/lu";
 import { LuPanelRightClose } from "react-icons/lu";
 import { useState } from 'react';
 
