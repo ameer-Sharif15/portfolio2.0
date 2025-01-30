@@ -16,9 +16,9 @@ const Navbar = () => {
   return (
     <div className="  flex items-center overflow-hidden bg-primary w-full max-w-[1500px] py-4 px-4 md:px-8 justify-between fixed top-0 z-30">
         <h1 className="md:text-3xl text-lg text-crimson font-bold capitalize bounce-in-left1">portfolio</h1>
-        <div className="block md:hidden" onClick={handleOpen}>
+        {/* <div className="block md:hidden" onClick={handleOpen}>
           <LuPanelLeftClose className='text-gold text-2xl cursor-pointer' /> 
-        </div>
+        </div> */}
         {isOpen ? (
           <div  className="bg-primary shadow-md w-4/5 border h-screen absolute right-0 top-0 px-4 py-4 flex flex-col border-gold">
               <LuPanelRightClose className='text-gold text-2xl cursor-pointer self-end' onClick={handleOpen}  /> 

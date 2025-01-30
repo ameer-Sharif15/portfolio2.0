@@ -34,8 +34,8 @@ export function CarouselComponent({items}: {items: {img: string, to?: string}[]}
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="bg-gold hidden md:block rounded-sm h-[20rem] w-[4rem] border-none -left-[6rem]" />
-      <CarouselNext className="bg-gold hidden md:block rounded-sm h-[20rem] w-[4rem] border-none -right-[6rem]" />
+      {/* <CarouselPrevious className="bg-gold hidden md:block rounded-sm h-[20rem] w-[4rem] border-none -left-[6rem]" /> */}
+      {/* <CarouselNext className="bg-gold hidden md:block rounded-sm h-[20rem] w-[4rem] border-none -right-[6rem]" /> */}
     </Carousel>
   )
 }

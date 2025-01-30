@@ -8,6 +8,7 @@ import bg2 from './gig1.png'
 import bg3 from './gig2.png'
 import bg4 from './gig3.png'
 import bg5 from './gig4.png'
+import bg6 from './gig5.png'
 import hafeez from './hafeez.png'
 import ad1 from './ad1.png'
 
@@ -23,6 +24,7 @@ export {
     bg3,
     bg4,
     bg5,
+    bg6,
     hafeez,
     ad1
 }

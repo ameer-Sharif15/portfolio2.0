@@ -6,19 +6,19 @@ import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 const social  = [
     {
         icon: <FaGithub /> ,
-        to: ''
+        to: 'https://github.com/ameer-Sharif15'
     },
     {
         icon: <FaLinkedinIn /> ,
-        to: ''
+        to: 'https://www.linkedin.com/in/hafeez-abubakar-883b4a24b/'
     },
     {
         icon: <FaXTwitter /> ,
-        to: ''
+        to: 'https://x.com/Hafeez46534515'
     },
     {
         icon: <FaFacebookF /> ,
-        to: ''
+        to: 'https://www.facebook.com/profile.php?id=100089837946024'
     },
 ]
 const Hero = () => {
@@ -64,7 +64,9 @@ const Hero = () => {
                         <a href={item.to} key={index} className="md:w-[50px] w-[35px] h-[35px] md:h-[50px] text-[22px]  bg-gold  flex text-[#000] justify-center items-center hover:bg-primary hover:border hover:text-gold  rounded-full">{item.icon}</a>
                     ))}
                 </ul>
-                <button className="w-[10rem] slide-top bg-gry py-2 rounded-xl hover:text-primary text-[#000] hover:bg-white">Download Resume</button>
+                <button
+                onClick={() => window.open('/Hafeez_Resume.pdf', '_blank')}
+                className="w-[10rem] slide-top bg-gry py-2 rounded-xl hover:text-primary text-[#000] hover:bg-white">Download Resume</button>
             </div>
             <div className="flex  ">
                 <div className="absolute fade-in_two  bottom-0 right-1">
